@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LootServe", "LootServe\LootServe.csproj", "{1F315E0A-3E13-4B00-97B0-58B32F9B6A77}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{0C8555D3-AF4D-4E83-A8AE-7EFCD29D0543}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{EF262F94-B832-4F74-A367-1C0E54B84A4C}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1 = PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{78396690-49AC-4A43-8412-71BC1F952252}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Templates\LootServe.json = PublishScripts\Templates\LootServe.json
+		PublishScripts\Templates\LootServe.param.dev.json = PublishScripts\Templates\LootServe.param.dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F315E0A-3E13-4B00-97B0-58B32F9B6A77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F315E0A-3E13-4B00-97B0-58B32F9B6A77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F315E0A-3E13-4B00-97B0-58B32F9B6A77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F315E0A-3E13-4B00-97B0-58B32F9B6A77}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EF262F94-B832-4F74-A367-1C0E54B84A4C} = {0C8555D3-AF4D-4E83-A8AE-7EFCD29D0543}
+		{78396690-49AC-4A43-8412-71BC1F952252} = {0C8555D3-AF4D-4E83-A8AE-7EFCD29D0543}
+	EndGlobalSection
+EndGlobal
